@@ -1,0 +1,67 @@
+body {
+    margin: auto;
+}
+
+header {
+    width: 98%;
+    margin: 17px;
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.lhs, .lhs .googleimg, .lhs form, .rhs {
+    display: inline-block;
+}
+
+.googleimg {
+    position: relative;
+    top :10px;
+}
+
+.rhs {
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.rhs a {
+    position: relative;
+    padding: 10px;
+    top: 5px;
+}
+
+.rhs button {
+    background-color: #0060ff;
+    color: #fff;
+    border: none;
+    padding: 5px;
+}
+
+.lhs form input {
+    width: 630px;
+    height: 42px;
+    border: 0.5px solid #ddd;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.lhs form {
+    position: relative;
+    padding-left: 30px;
+}
+
+.lhs form .image.mic {
+    position: absolute;
+    top: 11px;
+    right: 60px;
+}
+
+.lhs form .image.mag {
+    position: absolute;
+    top: 11px;
+    right: 15px;
+}
