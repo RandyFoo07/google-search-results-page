@@ -3,11 +3,11 @@ Deconstruct and rebuild a google search result page. In this case, the result pa
 
 ## Outcomes
 #### HTML5
-*
+* Implement HTML5 semantic elements (*header*,*nav*,*footer*)
 *
 *
 #### CSS3
-*
+* Float order with value "right" of elements are inverted when compared to html flow order
 *
 *
 
