@@ -15,14 +15,16 @@ Deconstruct and rebuild a google search result page. In this case, the result pa
 * images - folder containing images used in index.html
 * README.md - documentation of project
 * index.html - google search result HTML file
-* style1.css - css stylesheet for google search result page
+* reset.css - css reset stylesheet for google search result page
+* style.css - css stylesheet for google search result page
 
 ## Software
 #### Text-editor
 Visual Studio Code
 #### OS
-Ubuntu 18.04 on VirtualBox
+Linux Mint
 
 ## Project Source
 From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
+reset.css style sheet can be found [here](https://meyerweb.com/eric/tools/css/reset/index.html)
