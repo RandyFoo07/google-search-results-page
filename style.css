@@ -4,8 +4,10 @@ body {
     font-size: 16px;
 }
 
+/* header */
 header {
     position: fixed;
+    top: 0;
     z-index: 1;
     width: 98%;
     margin-top: 17px;
@@ -13,11 +15,13 @@ header {
     margin-right: 17px;
 }
 
+/* no need to clearfix as (position: fixed;) takes it out of normal document flow anyways
 header:after {
     content: "";
     display: block;
     clear: both;
 }
+*/
 
 .lhs, .lhs .googleimg, .lhs form, .rhs {
     display: inline-block;
@@ -73,4 +77,66 @@ header:after {
     position: absolute;
     top: 11px;
     right: 15px;
+}
+
+/* nav */
+nav {
+    margin-top: 85px;
+    border-bottom: 0.5px solid #eee;
+}
+
+nav ul {
+    margin-left: 150px;
+}
+
+nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    color: #555;
+}
+
+#navlhs li a {
+    padding: 10px 20px;
+}
+
+#more {
+    margin-right: 70px;
+}
+
+#all {
+    border-bottom: 3px solid #1e73fc;
+}
+
+#navrhs li a {
+    padding: 10px;
+}
+
+nav li a:visited {
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #1e73fc;
+}
+
+#tools:hover {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 6px 10px;
+    color: #555;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    border-radius: 2px;
+    box-sizing: border-box;
 }
