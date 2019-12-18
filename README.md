@@ -3,13 +3,13 @@ Deconstruct and rebuild a google search result page. In this case, the result pa
 
 ## Outcomes
 #### HTML5
-* Implement HTML5 semantic elements (*header*,*nav*,*footer*) for improved readability
+* Implement HTML5 semantic elements (**header**,**nav**,**footer**) for improved readability
 * Implement multiple classes to elements for more convenient grouping
 * 
 #### CSS3
-* Implement property *display* with values "block", "inline" and "inline-block" to modify the default positioning of elements
-* Implement property *position* with value "relative" and "absolute" to tweak final position of elements
-* 
+* Implement property **display** with values `block`, `inline` and `inline-block` to modify the default positioning of elements
+* Implement property **position** with value `relative` and `absolute` to tweak final position of elements
+* Implement properties **position** with value `fixed` and **z-index** with value `1` to fix header position at the top of the document while being on top of other elements
 
 ## Files
 * images - folder containing images used in index.html
