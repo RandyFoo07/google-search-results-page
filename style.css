@@ -57,6 +57,10 @@ header:after {
     font-size: 16px;
 }
 
+.lhs form input:hover {
+    box-shadow: 0px 2px 3px 0px #ddd;
+}
+
 .lhs form {
     position: relative;
     padding-left: 30px;
