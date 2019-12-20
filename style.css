@@ -29,7 +29,7 @@ header:after {
 
 .rhs {
     float: right;
-    padding-right: 20px;
+    padding-right: 15px;
     padding-top: 10px;
 }
 
@@ -43,9 +43,10 @@ header:after {
     background-color: #1e73fc;
     color: #fff;
     border: none;
-    padding: 10px 25px;
+    padding: 8px 25px;
     border: 1px solid transparent;
     border-radius: 5px;
+    font-size: 15px;
 }
 
 .lhs form input {
@@ -342,10 +343,6 @@ ul:after {
     color: #000;
 }
 
-.longgoogle ul li:last-child {
-    position: relative;
-}
-
 .longgoogle ul li {
     display: inline-block;
     margin: -2px;
@@ -354,6 +351,10 @@ ul:after {
 
 .longgoogle p {
     padding-top: 8px;
+}
+
+.longgoogle li:nth-child(2) p {
+    padding-top: 6px;
 }
 
 .longgoogle li:last-child p {
@@ -369,4 +370,43 @@ ul:after {
 
 .longgoogle a:hover {
     text-decoration: underline;
+}
+
+/*footer*/
+footer {
+    width: 100%;
+}
+
+footer ul .above li, footer ul .below li{
+    display: inline-block;
+    color: #777;
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+footer .above, footer .below {
+    padding: 5px;
+    background-color: #eee;
+    border-top: 1px solid rgb(230, 230, 230);
+    padding-left: 155px;
+}
+
+footer a {
+    color: #777;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #444;
+}
+
+footer li #location {
+    color: #333;
+    font-weight: bold;
+}
+
+footer img {
+    position: relative;
+    top: 2px;
+    right: 2px;
 }
