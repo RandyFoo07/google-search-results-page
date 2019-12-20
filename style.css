@@ -43,7 +43,7 @@ header:after {
     background-color: #1e73fc;
     color: #fff;
     border: none;
-    padding: 8px 25px;
+    padding: 10px 25px;
     border: 1px solid transparent;
     border-radius: 5px;
 }
@@ -137,5 +137,236 @@ nav li a:hover {
     border: 1px solid #aaa;
     background-color: #eee;
     border-radius: 2px;
-    box-sizing: border-box;
+}
+
+/* main */
+#stats, #stats p {
+    color: #777;
+    margin-left: 160px;
+    font-size: 14px;
+}
+
+/* article */
+article {
+    width: 600px;
+    margin-left: 145px;
+    line-height: 1.6em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+}
+
+article h1 {
+    font-size: 20px;
+}
+
+article h1 a {
+    text-decoration: none;
+    color: #1114ac;
+}
+
+article h1 a:visited {
+    color: purple;
+}
+
+article h1 a:hover {
+    text-decoration: underline;
+}
+
+article #plink p {
+    color: rgb(2, 110, 2);
+}
+
+article #plink img {
+    position: relative;
+    top: 3px;
+}
+
+article #desc p {
+    line-height: 1.5em;
+    font-size: 14px;
+    font-weight: 100;
+    color: #555;
+}
+
+/*table*/
+table {
+    margin-left: 140px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    border-collapse: separate;
+    width: 650px;
+    color: rgb(39, 39, 39);
+}
+
+table:after {
+    content: "";
+    display: block;
+    clear:both;
+}
+
+table a, table a:visited, table a:hover, table a:active {
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+
+table td, th {
+    text-align: left;
+    padding: 13px 18px;
+}
+
+table td {
+    border-top: 1px solid #ddd;
+}
+
+table th {
+    font-size: 20px;
+}
+
+table img {
+    float: right;
+}
+
+/*feedback*/
+.feedback {
+    margin-left: 720px;
+}
+
+.feedback a {
+    text-decoration: none;
+    font-size: 12px;
+    font-style: italic;
+    color: #777;
+}
+
+.feedback a:hover {
+    text-decoration: underline;
+}
+
+/*related*/
+.related {
+    margin-left: 140px;
+    padding: 13px 20px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    width: 600px;
+    line-height: 1.4em;
+}
+
+.related p {
+    font-size: 15px;
+    color: #777;
+}
+
+.related h1 {
+    font-size: 20px;
+}
+
+.related .webimg a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.related .webimg a p {
+    font-size: 14px;
+    color: #1114ac;
+}
+
+.related .webimg a:visited p {
+    color: purple
+}
+
+.related .webimg a:hover {
+    text-decoration: underline;
+}
+
+/*relatedsearch*/
+.relatedsearch {
+    margin-left: 160px;
+    width: 440px;
+}
+
+.relatedsearch h1 {
+    font-size: 20px;
+    padding: 15px;
+    padding-left: 0;
+}
+
+.relatedsearch li {
+    margin-top: 10px;
+}
+
+.relatedsearch li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1114ac;
+}
+
+.relatedsearch li a:hover {
+    text-decoration: underline;
+}
+
+.relatedsearch li a:visited {
+    color: purple;
+}
+
+.relatedsearch .lhs2 {
+    float: left;
+}
+
+.relatedsearch .rhs2 {
+    float: right;
+}
+
+ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*longgoogle*/
+.longgoogle {
+    margin: 40px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+.longgoogle ul li:first-child {
+    position: relative;
+    bottom: 22px;
+}
+
+.longgoogle ul li:nth-child(2) p {
+    color: #000;
+}
+
+.longgoogle ul li:last-child {
+    position: relative;
+}
+
+.longgoogle ul li {
+    display: inline-block;
+    margin: -2px;
+    text-align: center;
+}
+
+.longgoogle p {
+    padding-top: 8px;
+}
+
+.longgoogle li:last-child p {
+    padding-top: 0;
+}
+
+.longgoogle a {
+    display: block;
+    text-decoration: none;
+    color: rgb(60, 139, 192);
+    font-size: 14px;
+}
+
+.longgoogle a:hover {
+    text-decoration: underline;
 }
