@@ -50,11 +50,12 @@ header:after {
 }
 
 .lhs form input {
-    width: 620px;
+    width: 540px;
     height: 42px;
     border: 0.5px solid #ddd;
     border-radius: 30px;
     padding-left: 20px;
+    padding-right: 80px;
     font-size: 16px;
 }
 
@@ -70,7 +71,7 @@ header:after {
 .lhs form .image.mic {
     position: absolute;
     top: 11px;
-    right: 60px;
+    right: 55px;
 }
 
 .lhs form .image.mag {
