@@ -1,5 +1,6 @@
 # google-search-result-page
-Deconstruct and rebuild a google search result page. In this case, the result page of "build this webpage".
+Deconstruct and rebuild a google search result page. In this case, the result page of "build this webpage".  
+[View Website in Browser](https://randyfoo07.github.io/google-search-results-page/)  
 
 ## Outcomes
 #### HTML5
